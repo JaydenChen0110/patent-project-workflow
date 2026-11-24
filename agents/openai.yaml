@@ -1,4 +1,4 @@
 interface:
   display_name: "中文发明专利项目工作流"
-  short_description: "按证据完成专利检索、交底撰写、术语润色和申请稿复核"
-  default_prompt: "用 $patent-project-workflow 核对现有技术证据，并把我确认的技术方案整理成可审阅的专利交底书。"
+  short_description: "从发明主题出发，补齐关键技术事实并按模板生成交底初稿"
+  default_prompt: "用 $patent-project-workflow 帮我从主题开始写专利交底书。发明主题：[填入主题]。先问我需要澄清的关键问题，答完后按我提供的模板生成初稿。"
